@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online - Gustian Mawahir</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <h1 style="font-size: 24px;"><big>CV Online</big></h1>
+    <img src="img/gtx.jpg" alt="Foto Gustian Mawahir" width="200" style="border: 10px solid #824D74;" id="profile-pic">
+    <script src="script.js"></script>
+    <h1><figcaption>Gustian Mawahir</figcaption></h1>
+    <h2>Profil</h2>
+    <p>Seorang Grafis & AR desainer yang terampil dengan 3+ tahun pengalaman di industri kreatif dan freelance, menguasai aplikasi (Photoshop, Illustrator, Coreldraw, Procreate) dan Effecthouse</p>
+
+    <h2>Kontak</h2>
+    <p>Email: mynameisguty@gmail.com</p>
+    <p>Telepon: 089522751300</p>
+
+    <h2>Pengalaman Kerja</h2>
+    <table>
+        <tr>
+            <th>Periode</th>
+            <th>Pekerjaan</th>
+            <th>Deskripsi</th>
+        </tr>
+        <tr>
+            <td>Januari 2022 - sekarang</td>
+            <td>Desain Grafis (Freelance)</td>
+            <td>
+                <ul>
+                    <li>Mendesain bahan marketing campaign seperti poster, iklan baliho, dan konten lainnya</li>
+                    <li>Mendesain 100+ Gambar untuk clothing brand dari USA</li>
+                    <li>Mendesain 100+ Logo untuk profile clothing brand dari USA</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Pendidikan</h2>
+    <table>
+        <tr>
+            <th>Periode</th>
+            <th>Tempat</th>
+        </tr>
+        <tr>
+            <td>2019-2022</td>
+            <td>SMAN 10 Garut</td>
+        </tr>
+        <tr>
+            <td>2022-sekarang</td>
+            <td>Universitas Ma’soem</td>
+        </tr>
+    </table>
+
+    <h2>Pencapaian</h2>
+    <p>Juara 1 - Lomba Filter</p>
+    <p>Pemenang dalam kategori Atmosfer pada Lomba Filter Ramadan yang diselenggarakan secara nasional oleh TikTok dan Effect House Indonesia.</p>
+
+
+    <h2>Hobi</h2>
+    <p style="text-align: center;">
+        <figure class="hobi">
+            <img src="img/hobi1.jpg" alt="Foto Hobi 1" width="300">
+            <figcaption>Desain</figcaption>
+        </figure>
+        <figure class="hobi">
+            <img src="img/hobi2.jpg" alt="Foto Hobi 2" width="300">
+            <figcaption>Main Game</figcaption>
+        </figure>
+        <figure class="hobi">
+            <img src="img/hobi3.jpg" alt="Foto Hobi 3" width="300">
+            <figcaption>Fotografi</figcaption>
+        </figure>
+        <figure class="hobi">
+            <img src="img/hobi4.jpg" alt="Foto Hobi 4" width="300">
+            <figcaption>Mendengarkan Music</figcaption>
+        </figure>
+    </p>
+
+
+    <!-- Form Buku Tamu -->
+    <h2>Buku Tamu</h2>
+    <form class="container">
+        <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama">
+        </div>
+        <div class="form-group">
+            <label for="komentar">Komentar:</label>
+            <textarea class="form-control" id="komentar" rows="3" placeholder="Masukkan komentar"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="submitKomentar()">Submit</button>
+    </form>
+
+
+</body>
+</html>
